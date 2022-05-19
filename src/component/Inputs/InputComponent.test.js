@@ -1,10 +1,10 @@
 import { render, screen, fireEvent } from '@testing-library/react';
-import App from './App';
+import InputComponent from './InputComponent';
 
 describe('testing app input ', () => {
  let addInput;
   beforeEach(() =>{
-    render(<App />);
+    render(<InputComponent />);
     addInput = screen.getByText(/add row/i)
   });
 
@@ -15,8 +15,10 @@ describe('testing app input ', () => {
 
   test('add input with one click', () => {
     fireEvent.click(addInput);
+    fireEvent.click(addInput);
+    fireEvent.click(addInput);
     const inputs =screen.getAllByPlaceholderText('enter');
-    expect(inputs.length).toBe(1);
+    expect(inputs.length).toBe(3);
 
   });
 

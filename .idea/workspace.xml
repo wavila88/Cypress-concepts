@@ -2,6 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef11532b-ea77-4d76-8f95-fe1396626912" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/test-library.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Child.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/ComponentToTestBoundaries.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/ErrorBoundary.Component.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
@@ -121,7 +129,7 @@
       <option name="presentableId" value="Default" />
       <updated>1622082339254</updated>
       <workItem from="1622082340772" duration="5024000" />
-      <workItem from="1622094220150" duration="2771000" />
+      <workItem from="1622094220150" duration="2971000" />
     </task>
     <servers />
   </component>

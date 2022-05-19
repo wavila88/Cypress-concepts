@@ -1,21 +1,15 @@
 
-import React, { useRef, useState } from 'react';
-import './App.css';
+import React from 'react';
+import InputComponent from './component/Inputs/InputComponent';
+import DivComponent from './component/Divs/DivComponent';
+import {FormComponent} from './component/Form/FormComponent';
 
 function App() {
-  const [showInput, setShowInput] = useState(false);
-    const [showOtherInput, setShowOtherInput] = useState(false);
-
+ 
   return (
     <>
-      <div>
-        <button onClick={() =>{setShowInput(true)}}>show input</button>
-        {showInput &&     <input role='textbox' data-testid="saludo" value='Hola Mundo'></input>}
-
-          <button onClick={() =>{setShowOtherInput(true)}}>add row</button>
-          {showOtherInput && <input placeholder={'enter'} value={'mundo'}/>}
-
-      </div>
+      <DivComponent/>
+      <FormComponent/>
     </>
   );
 }
